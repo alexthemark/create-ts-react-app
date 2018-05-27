@@ -1,8 +1,12 @@
 {
-    "editor.formatOnSave": true,
-    "tslint.enable": true,
-    "tslint.autoFixOnSave": true,
-    "editor.tabSize": 2,
-    "editor.useTabStops": false,
-    "typescript.autoImportSuggestions.enabled": true
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "tslint.enable": true,
+  "editor.tabSize": 2,
+  "editor.tabCompletion": true,
+  "editor.useTabStops": false,
+  "typescript.autoImportSuggestions.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  }
 }

@@ -1,0 +1,26 @@
+{
+  "Component": {
+    "prefix": "component",
+    "body": [
+      "import { StyleRulesCallback, WithStyles, withStyles} from \"@material-ui/core\";",
+      "import React from \"react\";",
+      "",
+      "export interface I${1:ClassName}Props extends WithStyles<\"${1:ClassName}\"> {",
+      "  //empty",
+      "}",
+      "",
+      "class Unstyled${1:ClassName} extends React.PureComponent<I${1:ClassName}Props,",
+      "{}> {",
+      "public render() {",
+      "return <div className={this.props.classes.${1:ClassName}}>${1:ClassName}</div>",
+      "}",
+      "}",
+      "",
+      "export const ${1:ClassName}Style: StyleRulesCallback<\"${1:ClassName}\"> = () => ({",
+      "${1:ClassName}: {}",
+      "});",
+      "export const ${1:ClassName} = withStyles(${1:ClassName}Style)(Unstyled${1:ClassName});"
+    ],
+    "description": "Create a react component"
+  }
+}

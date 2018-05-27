@@ -1,17 +1,11 @@
 {
-    "defaultSeverity": "error",
-    "extends": [
-        "tslint:recommended",
-        "tslint-react"
-    ],
-    "jsRules": {},
-    "rules": {
-        "no-empty-interface": false,
-        "indent": [
-            true,
-            "spaces",
-            2
-        ]
-    },
-    "rulesDirectory": []
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "jsRules": {},
+  "rules": {
+    "no-empty-interface": false,
+    "object-literal-sort-keys": false, // this one is just silly and doesn't allow us to use groupings/sensical orderings
+    "ordered-imports": false // tslint and prettier respect casing differently, so we'll disable this in tslint.
+  },
+  "rulesDirectory": []
 }
