@@ -1,0 +1,27 @@
+{
+  "name": "create-ts-react-app",
+  "version": "1.0.0",
+  "description": "create-ts-react-app",
+  "main": "index.ts",
+  "author": "Alex Mark <acm2209@columbia.edu>",
+  "license": "Private",
+  "scripts": {
+    "compile:ts": "tsc -p tsconfig.json",
+    "lint": "tslint"
+  },
+  "devDependencies": {
+    "@types/react": "^16.3.14",
+    "@types/react-dom": "^16.0.5",
+    "less": "^3.0.4",
+    "tslint": "^5.10.0",
+    "tslint-react": "^3.6.0",
+    "typescript": "^2.8.3",
+    "webpack": "^4.9.1",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "redux": "^4.0.0"
+  }
+}
