@@ -29,7 +29,7 @@ Create TS React App is a demo application that uses typescript and react.
 ### Getting Started
 
 If you use visual studio code, workspace settings will be set up for you, including tslint config, prettier config, and formatOnSave.
-Install the vscode-prettier and tslint-prettier extensions for best results.
+Install the vscode-prettier and tslint extensions for best results.
 
 Run `yarn install` to install needed dependencies.
 Run `yarn start` and go to `https://localhost:8080/my-app`
